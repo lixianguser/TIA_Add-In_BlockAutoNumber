@@ -63,7 +63,7 @@ TIA_Add-In_BlockAutoNumber是一个完全开源的插件类库，感谢您的支
 Wechat Pay  
 <img width="274" alt="image" src="https://user-images.githubusercontent.com/36319693/170806833-e7533697-9f50-49d4-985a-45faf4d2d1aa.png">
 
-PalPay  
+PayPal  
 [paypal.me/lixianguser](https://www.paypal.me/lixianguser)
  
 # Running add-ins 运行插件
