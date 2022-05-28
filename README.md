@@ -30,10 +30,10 @@ To deactivate add-ins, follow these steps:
 
 2. In the "Add-ins" pane, navigate to the add-in that you want to deactivate.
 
-3. In the shortcut menu of the add-in or in the "State" column, select the command "Deactivate".
+3. In the shortcut menu of the add-in or in the "Status" column, select the command "Deactivate".
 
 4. You can identify deactivated add-ins by the <img width="18" alt="image" src="https://user-images.githubusercontent.com/36319693/170804869-91378cb8-1fb4-4d9c-968d-a13038d3b1b3.png">
-symbol in the "State" column.
+symbol in the "Status" column.
 
 5. Repeat the procedure for all add-ins you want to deactivate.
 
