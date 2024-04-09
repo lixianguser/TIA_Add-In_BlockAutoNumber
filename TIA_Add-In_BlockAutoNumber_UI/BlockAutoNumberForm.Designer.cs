@@ -89,7 +89,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.labelStartingNumber.Name = "labelStartingNumber";
             this.labelStartingNumber.Size = new System.Drawing.Size(86, 13);
             this.labelStartingNumber.TabIndex = 2;
-            this.labelStartingNumber.Text = "Starting Number:";
+            this.labelStartingNumber.Text = "起始编号:";
             // 
             // labelIncrement
             // 
@@ -98,7 +98,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.labelIncrement.Name = "labelIncrement";
             this.labelIncrement.Size = new System.Drawing.Size(57, 13);
             this.labelIncrement.TabIndex = 3;
-            this.labelIncrement.Text = "Increment:";
+            this.labelIncrement.Text = "递增值:";
             // 
             // buttonOk
             // 
@@ -107,7 +107,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOk.TabIndex = 4;
-            this.buttonOk.Text = "Ok";
+            this.buttonOk.Text = "好";
             this.buttonOk.UseVisualStyleBackColor = true;
             // 
             // buttonCancel
@@ -117,7 +117,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 5;
-            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.Text = "取消";
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // NumberForm
@@ -138,7 +138,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Number";
+            this.Text = "块自动编号";
             this.TopMost = true;
             this.Deactivate += new System.EventHandler(this.NumberForm_Deactivate);
             this.Load += new System.EventHandler(this.NumberForm_Load);
