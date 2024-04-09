@@ -89,7 +89,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.labelStartingNumber.Name = "labelStartingNumber";
             this.labelStartingNumber.Size = new System.Drawing.Size(86, 13);
             this.labelStartingNumber.TabIndex = 2;
-            this.labelStartingNumber.Text = "Starting Number:";
+            this.labelStartingNumber.Text = "起始编号:";
             // 
             // labelIncrement
             // 
@@ -98,7 +98,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.labelIncrement.Name = "labelIncrement";
             this.labelIncrement.Size = new System.Drawing.Size(57, 13);
             this.labelIncrement.TabIndex = 3;
-            this.labelIncrement.Text = "Increment:";
+            this.labelIncrement.Text = "递增值:";
             // 
             // buttonOk
             // 
@@ -138,7 +138,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Number";
+            this.Text = "块自动编号";
             this.TopMost = true;
             this.Deactivate += new System.EventHandler(this.NumberForm_Deactivate);
             this.Load += new System.EventHandler(this.NumberForm_Load);

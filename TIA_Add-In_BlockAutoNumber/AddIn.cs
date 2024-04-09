@@ -21,15 +21,15 @@ namespace TIA_Add_In_BlockAutoNumber
         /// </summary>
         private ProjectBase _projectBase;
 
-        public AddIn(TiaPortal tiaPortal) : base("BlockAutoNumber")
+        public AddIn(TiaPortal tiaPortal) : base("块自动编号")
         {
             _tiaPortal = tiaPortal;
         }
 
         protected override void BuildContextMenuItems(ContextMenuAddInRoot addInRootSubmenu)
         {
-            addInRootSubmenu.Items.AddActionItem<PlcBlock>("Number", Number_OnClick);
-            addInRootSubmenu.Items.AddActionItem<IEngineeringObject>("Number",
+            addInRootSubmenu.Items.AddActionItem<PlcBlock>("编号", Number_OnClick);
+            addInRootSubmenu.Items.AddActionItem<IEngineeringObject>("如需编号，请选中程序块",
                 menuSelectionProvider => { }, TextInfoStatus);
         }
 
@@ -62,7 +62,7 @@ namespace TIA_Add_In_BlockAutoNumber
                 DeviceItem deviceItem = FindDeviceItem(menuSelectionProvider.GetSelection());
                 if (!IsOffline(deviceItem))
                 {
-                    MessageBox.Show("PLC device not offline", "Offline Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("PLC设备不是离线状态", "离线错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
