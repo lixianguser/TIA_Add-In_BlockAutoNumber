@@ -107,7 +107,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOk.TabIndex = 4;
-            this.buttonOk.Text = "Ok";
+            this.buttonOk.Text = "好";
             this.buttonOk.UseVisualStyleBackColor = true;
             // 
             // buttonCancel
@@ -117,7 +117,7 @@ namespace TIA_Add_In_BlockAutoNumber_UI
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 5;
-            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.Text = "取消";
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // NumberForm
