@@ -60,7 +60,7 @@ namespace TIA_Add_In_BlockAutoNumber
 
                 //检测PLC是否为离线模式
                 DeviceItem deviceItem = FindDeviceItem(menuSelectionProvider.GetSelection());
-                if (IsOffline(deviceItem))
+                if (!IsOffline(deviceItem))
                 {
                     MessageBox.Show("PLC device not offline", "Offline Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
